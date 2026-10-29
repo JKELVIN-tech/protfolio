@@ -839,101 +839,38 @@ nav {
 <!-- PROJECTS -->
 <section class="section" id="projects">
   <div class="wrapper">
-    <p class="section-label"><svg style="display:inline-block;flex-shrink:0;vertical-align:-2px;margin-right:4px;" width="13" height="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/><polyline points="9 13 7 15 9 17"/><polyline points="15 13 17 15 15 17"/></svg>Selected Work</p>
-    <h2 class="section-title">Projects</h2>
-    <p class="section-desc">Click any project to explore the details and learn more at Obsidian.</p>
+    <p class="section-label">Selected Work</p>
+    <h2 class="section-title">Recent Projects</h2>
+    <p class="section-desc">A selection of software, product, and security projects I have been building.</p>
     <div class="projects-grid">
-
-      <!-- SENTINEL X -->
-      <div class="project-card" onclick="openModal('sentinel')">
-        <div class="project-snapshot">
-          <div class="snap-sentinel">
-            <div class="terminal-bar"><div class="dot"></div><span>sentinel-x › threat_monitor --live</span></div>
-            <div class="alert-row alert-red"><span>●</span> CRITICAL — Intrusion attempt · 192.168.1.44</div>
-            <div class="alert-row alert-amber"><span>◆</span> WARNING — Anomalous traffic spike · port 8443</div>
-            <div class="alert-row alert-green"><span>✓</span> NOMINAL — All endpoints secured</div>
-            <div class="status-grid">
-              <div class="status-cell"><span class="val">247</span>Events/s</div>
-              <div class="status-cell"><span class="val">3</span>Threats</div>
-              <div class="status-cell"><span class="val">99.8%</span>Uptime</div>
-            </div>
-          </div>
-          <div class="project-image-overlay"></div>
-        </div>
-        <div class="project-info">
-          <p class="project-number">01</p>
-          <h3 class="project-name">Sentinel X</h3>
-          <p class="project-desc">Real-time threat detection and security intelligence platform with live event monitoring and automated response workflows.</p>
-          <div class="project-tags">
-            <span class="tag">Security</span><span class="tag">Real-time</span><span class="tag">AI/ML</span>
-          </div>
-          <div class="project-footer">
-            <span class="project-link"><svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg> Explore <svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
-          </div>
-        </div>
-      </div>
-
-      <!-- SMARTLEASE -->
-      <div class="project-card" onclick="openModal('smartlease')">
-        <div class="project-snapshot">
-          <div class="snap-smartlease">
-            <div class="sl-topbar">
-              <span class="sl-logo">SmartLease</span>
-              <div class="sl-nav"><span class="active">Dashboard</span><span>Listings</span><span>Analytics</span></div>
-            </div>
-            <div class="sl-row">
-              <div class="sl-card"><div class="sl-card-title">Active Leases</div><div class="sl-card-val">148</div></div>
-              <div class="sl-card"><div class="sl-card-title">Monthly Rev</div><div class="sl-card-val">KSh 4.2M</div></div>
-            </div>
-            <div class="sl-listing"><span>Westlands, Unit 4B — 2BR</span><span class="sl-badge">Active</span></div>
-            <div class="sl-listing"><span>Kilimani, Unit 12A — 1BR</span><span class="sl-badge">Renewing</span></div>
-          </div>
-          <div class="project-image-overlay"></div>
-        </div>
-        <div class="project-info">
-          <p class="project-number">02</p>
-          <h3 class="project-name">SmartLease</h3>
-          <p class="project-desc">Intelligent property lease management system — automating tenancy workflows, analytics, and landlord-tenant communications.</p>
-          <div class="project-tags">
-            <span class="tag">PropTech</span><span class="tag">Automation</span><span class="tag">SaaS</span>
-          </div>
-          <div class="project-footer">
-            <span class="project-link"><svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg> Explore <svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
-          </div>
-        </div>
-      </div>
-
-      <!-- BASH -->
-      <div class="project-card" onclick="openModal('bash')">
-        <div class="project-snapshot">
-          <div class="snap-bash">
-            <div class="bash-header">
-              <div class="bash-dot r"></div><div class="bash-dot y"></div><div class="bash-dot g"></div>
-              <span class="bash-title">bash — terminal</span>
-            </div>
-            <div class="bash-line"><span class="bash-prompt">$</span><span class="bash-cmd">bash --init --env production</span></div>
-            <div class="bash-line"><span class="bash-out info">▸ Initializing BASH runtime v2.4.1</span></div>
-            <div class="bash-line"><span class="bash-out info">▸ Loading config modules...</span></div>
-            <div class="bash-line"><span class="bash-out success">✓ Environment ready — 14 modules loaded</span></div>
-            <div class="bash-line"><span class="bash-prompt">$</span><span class="bash-cmd">bash deploy --target cloud --replicas 3</span></div>
-            <div class="bash-line"><span class="bash-out success">✓ Deployed in 1.2s</span></div>
-            <div class="bash-line"><span class="bash-prompt">$</span><span class="bash-cursor"></span></div>
-          </div>
-          <div class="project-image-overlay"></div>
-        </div>
-        <div class="project-info">
-          <p class="project-number">03</p>
-          <h3 class="project-name">BASH</h3>
-          <p class="project-desc">A developer toolchain and automation framework engineered for rapid deployment, scripted workflows, and cloud-native environments.</p>
-          <div class="project-tags">
-            <span class="tag">DevOps</span><span class="tag">CLI</span><span class="tag">Cloud</span>
-          </div>
-          <div class="project-footer">
-            <span class="project-link"><svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg> Explore <svg style="display:inline-block;flex-shrink:0;" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
-          </div>
-        </div>
-      </div>
-
+      <a class="project-card" href="https://github.com/JKELVIN-tech" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-bash" style="min-height:150px;justify-content:center;"><div class="bash-title">BASH · SOCIAL EVENTS</div><div class="bash-line"><span class="bash-out info">Plan · Discover · Attend</span></div><div class="bash-line"><span class="bash-out success">Android app concept</span></div></div></div>
+        <div class="project-info"><p class="project-number">01</p><h3 class="project-name">Bash Events App</h3><p class="project-desc">An Android social-events app concept with event creation, details, tickets, profiles, stories, and role-aware navigation.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Firebase</span></div><div class="project-footer"><span class="project-link">Explore on GitHub ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://github.com/JKELVIN-tech" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-smartlease" style="min-height:150px;"><div class="sl-topbar"><span class="sl-logo">SmartLease</span><span class="sl-badge">Property tech</span></div><div class="sl-listing"><span>Properties · Tenants</span><span class="sl-badge">RBAC</span></div><div class="sl-listing"><span>Maintenance · Reports</span><span class="sl-badge">Dashboard</span></div></div></div>
+        <div class="project-info"><p class="project-number">02</p><h3 class="project-name">SmartLease</h3><p class="project-desc">A rental and property management system concept for managing tenants, owners, maintenance requests, staff workloads, and reports.</p><div class="project-tags"><span class="tag">React</span><span class="tag">Express</span><span class="tag">MongoDB</span></div><div class="project-footer"><span class="project-link">Explore on GitHub ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://github.com/JKELVIN-tech" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-sentinel" style="min-height:150px;"><div class="terminal-bar"><div class="dot"></div><span>sentinelx / reconnaissance</span></div><div class="alert-row alert-green">DNS · RDAP · Nmap</div><div class="alert-row alert-amber">Security checks and findings</div></div></div>
+        <div class="project-info"><p class="project-number">03</p><h3 class="project-name">SentinelX</h3><p class="project-desc">A Python security and reconnaissance tool for domain intelligence, DNS records, RDAP lookups, and network scanning workflows.</p><div class="project-tags"><span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Security</span></div><div class="project-footer"><span class="project-link">Explore on GitHub ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://github.com/JKELVIN-tech" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-bash" style="min-height:150px;justify-content:center;"><div class="bash-title">LinkPilot AI</div><div class="bash-line"><span class="bash-out info">Resume · Match · Optimise</span></div><div class="bash-line"><span class="bash-out success">Career application toolkit</span></div></div></div>
+        <div class="project-info"><p class="project-number">04</p><h3 class="project-name">LinkPilot AI</h3><p class="project-desc">An AI-assisted career platform concept for resume uploads, job matching, resume optimisation, application tracking, and ATS-oriented feedback.</p><div class="project-tags"><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span><span class="tag">AI</span></div><div class="project-footer"><span class="project-link">Explore on GitHub ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://github.com/JKELVIN-tech" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-smartlease" style="min-height:150px;"><div class="sl-topbar"><span class="sl-logo">Club Management</span><span class="sl-badge">Full stack</span></div><div class="sl-listing"><span>Members · Operations</span><span class="sl-badge">Manage</span></div><div class="sl-listing"><span>Records · Reporting</span><span class="sl-badge">Track</span></div></div></div>
+        <div class="project-info"><p class="project-number">05</p><h3 class="project-name">Club Management System</h3><p class="project-desc">A full-stack management system focused on organising club records and workflows with a modern web stack and relational data.</p><div class="project-tags"><span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">PostgreSQL</span></div><div class="project-footer"><span class="project-link">Explore on GitHub ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://github.com/bashevent01-commits/teach-app" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-sentinel" style="min-height:150px;"><div class="terminal-bar"><div class="dot"></div><span>Teach · accountability</span></div><div class="alert-row alert-green">Financial accountability PWA</div><div class="alert-row alert-amber">FastAPI · PostgreSQL</div></div></div>
+        <div class="project-info"><p class="project-number">06</p><h3 class="project-name">Teach</h3><p class="project-desc">A financial-accountability progressive web app backed by an API and relational database. Source repository is maintained under the Bash Events organisation.</p><div class="project-tags"><span class="tag">PWA</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span></div><div class="project-footer"><span class="project-link">View repository ↗</span></div></div>
+      </a>
+      <a class="project-card" href="https://obsidian-wbst.netlify.app/" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
+        <div class="project-snapshot"><div class="snap-bash" style="min-height:150px;justify-content:center;"><div class="bash-title">OBSIDIAN TECHNOLOGY</div><div class="bash-line"><span class="bash-out info">Websites · SaaS · Custom software</span></div><div class="bash-line"><span class="bash-out success">Technology services</span></div></div></div>
+        <div class="project-info"><p class="project-number">07</p><h3 class="project-name">Obsidian Technology</h3><p class="project-desc">A technology-company website concept presenting software development, SaaS products, and custom technology services.</p><div class="project-tags"><span class="tag">Web Design</span><span class="tag">Frontend</span><span class="tag">Branding</span></div><div class="project-footer"><span class="project-link">Visit website ↗</span></div></div>
+      </a>
     </div>
   </div>
 </section>
@@ -963,6 +900,26 @@ nav {
           <div class="skill-item"><svg style="display:inline-block;flex-shrink:0;margin-right:4px;color:var(--accent);" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>PostgreSQL</div>
           <div class="skill-item"><svg style="display:inline-block;flex-shrink:0;margin-right:4px;color:var(--accent);" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>System Design</div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section" id="certifications">
+  <div class="wrapper">
+    <p class="section-label">Professional Development</p>
+    <h2 class="section-title">Certification</h2>
+    <div class="about-grid">
+      <div class="about-bio">
+        <p><strong>Cisco DevNet Associate</strong></p>
+        <p>Completed July 2026. Focused on network automation, APIs, software development for network environments, and Cisco platform fundamentals.</p>
+      </div>
+      <div class="skills-list">
+        <div class="skill-item">Cisco DevNet Associate</div>
+        <div class="skill-item">Network automation</div>
+        <div class="skill-item">APIs and integrations</div>
+        <div class="skill-item">Software development</div>
       </div>
     </div>
   </div>
