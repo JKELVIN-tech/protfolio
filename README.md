@@ -1,43 +1,33 @@
-# Portfolio — James Kelvin
+# Portfolio — Kelvin Mbugua Njau
 
-> A modern developer portfolio showcasing software projects, technical skills, and practical work.
+A personal portfolio presenting my software development, application engineering, and cybersecurity projects.
 
-This repository contains my personal portfolio website and serves as the main presentation layer for my software development work.
+## Recent Projects
 
-## What I Build
+- **Bash Events App** — Android social-events application concept featuring event creation, event details, tickets, profiles, stories, and role-aware navigation. Stack: Kotlin, Jetpack Compose, Firebase.
+- **SmartLease** — Rental and property management system concept for tenant and owner workflows, maintenance requests, staff workloads, and reporting. Stack: React, Node.js/Express, MongoDB.
+- **SentinelX** — Python security reconnaissance tooling for DNS records, RDAP lookups, and network scanning workflows.
+- **LinkPilot AI** — AI-assisted career platform concept for resume uploads, job matching, resume optimisation, application tracking, and ATS feedback. Stack: FastAPI, SQLAlchemy, PostgreSQL.
+- **Club Management System** — Full-stack club records and operations management project. Stack: TypeScript, React, PostgreSQL.
+- **Teach** — Financial-accountability progressive web app using FastAPI and PostgreSQL. Repository: https://github.com/bashevent01-commits/teach-app
+- **Obsidian Technology** — Technology services website concept. Website: https://obsidian-wbst.netlify.app/
 
-- Full-stack web applications
-- Business websites and internal systems
-- Mobile applications
-- APIs and backend services
-- Security-focused developer tools
+## Certification
 
-## Featured Work
-
-| Project | Focus |
-|---|---|
-| Club Management System | Full-stack TypeScript, React, PostgreSQL, Prisma |
-| Teach | Financial accountability PWA + FastAPI/PostgreSQL |
-| Bash | React Native social events application |
-| SentinelX | Security and reconnaissance tooling |
-| Obsidian | Technology company website |
-| LinkPilot AI | AI-assisted career and job matching platform |
+**Cisco DevNet Associate** — Completed July 2026.
 
 ## Technology
 
-**Frontend:** React, JavaScript, TypeScript, Tailwind CSS, Vite
-
-**Backend:** Python, FastAPI, Node.js, Express, Java, PHP
-
-**Data:** PostgreSQL, MongoDB, SQL
-
-**Mobile:** React Native
-
-**Security / Networking:** Kali Linux, Wireshark, Nmap, Metasploit, Cisco tooling
+- **Languages:** Python, JavaScript, TypeScript, Java, PHP, C, C++, SQL
+- **Frontend:** React, Tailwind CSS, Vite
+- **Backend:** FastAPI, Node.js, Express
+- **Databases:** PostgreSQL, MongoDB, Firebase
+- **Security and networking:** Kali Linux, Wireshark, Nmap, Metasploit, Cisco Packet Tracer
+- **Cloud:** Google Cloud
 
 ## Local Development
 
-Install dependencies and start the development server using the scripts defined by the project configuration.
+Install the dependencies configured for the project and start the development server using the project's package scripts.
 
 ```bash
 npm install
@@ -46,12 +36,11 @@ npm run dev
 
 ## Developer
 
-**James Kelvin**
-
-Software developer building practical products with an interest in full-stack engineering, mobile development, and cybersecurity.
+**Kelvin Mbugua Njau**  
+Software development student and developer based in Nairobi, Kenya.
 
 - GitHub: https://github.com/JKELVIN-tech
 
 ---
 
-*The portfolio is continuously improved as new projects and case studies are completed.*
+*Project descriptions reflect ongoing work and concepts; implementation status may vary by project.*
